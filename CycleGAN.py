@@ -89,7 +89,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0"
 # In[ ]:
 
 
-image_folder = 'malefemale'
+image_folder = 'mrict'
 data = load_data(subfolder=image_folder)
 
 
