@@ -106,10 +106,10 @@ def load_data(subfolder='', generator=False):
         return image_array
 
     # Image paths
-    trainA_path = os.path.join('data', subfolder, 'trainA')
-    trainB_path = os.path.join('data', subfolder, 'trainB')
-    testA_path = os.path.join('data', subfolder, 'testA')
-    testB_path = os.path.join('data', subfolder, 'testB')
+    trainA_path = os.path.join('mrict', subfolder, 'trainMRI')
+    trainB_path = os.path.join('mrict', subfolder, 'trainCT')
+    testA_path = os.path.join('mrict', subfolder, 'testMRI')
+    testB_path = os.path.join('mrict', subfolder, 'testCT')
 
     # Image file names
     trainA_image_names = sorted(os.listdir(trainA_path))
